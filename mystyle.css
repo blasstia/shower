@@ -1,0 +1,43 @@
+/*初始設定*/
+* {
+    padding: 0;/*邊框到內文的間隔*/
+    margin: 0;/*邊框物件的間隔*/
+}
+
+div.d1{
+    width: 50%;
+    height: 100px;
+    padding: 0px;
+    margin: 0px;
+    color: red;
+    background-color:#00ffff;
+    float: left;
+    
+}
+div.d2{
+    width: 50%;
+    height: 100px;
+    padding:0;
+    margin: 0;
+    color: blue;
+    background-color: rgb(243, 215, 178);
+    float: left;
+}
+div.d3{
+    width: 50%;
+    height: 100px;
+    padding:0;
+    margin: 0;
+    color: rgb(128, 0, 75);
+    background-color: antiquewhite;
+    float: left;
+}
+div.d4{
+    width: 50%;
+    height: 100px;
+    padding:30px;
+    margin: 20px;
+    color: #808080;
+    background-color: #f3d7b2;
+    float: left;
+}
