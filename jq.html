@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js'></script>
+
+    <script>
+        // 樣式處理
+        // let title2 = document.getElementById("title").style;
+        // console.log(title2)
+        // title2.color = "red" // "#FF0000"
+        // title2.backgroundColor = "#665574";
+        // title2.height = "100px";
+        // title2.width = "400px";
+
+        $(document).ready(function () {
+
+            // 設定樣式
+            $("#title").css('color', 'red');
+            $("#title").css('backgroundColor', '#665574');
+            $("#title").css('height', '100px');
+            $("#title").css('width', '400px');
+
+            // jq 轉 js 的方法，然後取值
+            //console.log($("#title").style.color = "red")
+            console.log($("#title").get(0).style.color);
+        });
+    </script>
+
+</head>
+
+<body>
+    <h1 id="title">HELLO WORLD</h1>
+
+    <div class="box">box1</div>
+    <div class="box">box2</div>
+    <div class="box">box3</div>
+    <div class="box">box4</div>
+
+    <script>
+        // console.log($("#title").text());
+    </script>
+</body>
+
+</html>
